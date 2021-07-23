@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: firebrick;
+}
+.container{
+    top: 50%;
+    left: 50%;
+    width: 300px;
+}
+.form-control{
+    width: 98%;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+    font-size: 2rem;
+}
+.button
+{
+    height: 20px;
+    font-size: 2rem;
+}
+
+
+
+.Equal_sign{
+    height: 100%;
+    grid-column: span 4;
+}
+
+.calc_button
+{
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px;
+    font-size: 2rem;
+} 
+
+
+.calc_button
+{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    font-size: 2rem;
+} 
+
